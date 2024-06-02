@@ -1,0 +1,126 @@
+body {
+  font-family: monospace;
+  background: linear-gradient(to right, #791b16, #d0e19a);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-size: 18px;
+}
+
+.landing-page {
+  width: 80%;
+  /* max-width: 900px; */
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-size: 25px;
+  width: 100%;
+  line-height: 60px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  height: 550px;
+  /* max-width: 900px; */
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 70px;
+}
+
+.player {
+  text-align: center;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.score {
+  font-size: 3em;
+  margin: 10px 0;
+}
+
+.current {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.current p {
+  margin: 0;
+  font-size: 1em;
+}
+
+.current-score {
+  font-size: 1.5em;
+}
+
+.dice-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  gap: 20px;
+  margin-left: 100px;
+}
+
+.dice {
+  font-size: 3em;
+  margin: 10px 0;
+}
+
+button {
+  background: white;
+  border: none;
+  color: rgb(8, 8, 8);
+  font-size: 1em;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: monospace;
+  
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+img {
+  width: 200px;
+}
+.game-btns {
+  display: flex;
+  justify-content: center;
+}
+.current-container {
+  background: #fff;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 80px;
+}
+.hold-btn {
+  margin-left: 105px;
+}
